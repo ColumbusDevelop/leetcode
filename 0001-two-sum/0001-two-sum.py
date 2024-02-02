@@ -12,6 +12,6 @@ class Solution(object):
             difference = target - n
 
             if difference in previous_nums:
-                return (i, previous_nums[n])
+                return (i, previous_nums[difference])
 
             previous_nums[n] = i
